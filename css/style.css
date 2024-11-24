@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+}
+
+html{
+    font-family: "Chicle", serif;
+    height: 100%;
+    
+}
+
+h1, h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h1{
+    font-size: 3.2rem;
+    padding: 0.1rem;
+    border-radius: .5rem;
+}
+
+.textLabel{
+    font-size: 2rem;
+}
+
+
+body{
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5rem;
+    height: auto;
+}
+
+.bg{
+    background-image: url(/img/cat-background.jpg);
+    background-size: cover;
+    
+}
+
+.toolFlex{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: #f5f5dcc9;
+    padding: 2.5rem;
+    border-radius: 0 1rem 1rem 0;
+    width: 22rem;
+    height: 100%;
+}
+
+label{
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.textContainer{
+    width:22rem;
+
+}
+
+.memeText{
+    width: 22rem;
+    height: 4rem;
+    border-color: #309da5;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+
+}
+
+.img-container{
+    background-color: #a2b4b2;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: none;
+    width: auto;
+    height: auto;
+}
+
+.fontSizeSelector{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.colorSelector{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button{
+    border: none;
+    background: linear-gradient(#cab459, #5e5a21);
+    color: white;
+    padding: .7rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #4d4d3e;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

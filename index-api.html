@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Meme Generator >3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chicle&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="bg">
+
+            <div class="toolFlex">
+
+                <div>
+                    <h1>Cat meme generator</h1>
+                    <h2>:3</h2>
+                </div>
+    
+                <div>
+                    <label for="" class="textLabel">Texto</label>
+                </div>
+                <div class="textContainer">
+                    <input type="text" id="texto" class="memeText" placeholder="Escribe aqui el texto...">
+                </div>
+        
+                <div class="fontSizeSelector">
+                    <label for="">Tamaño de fuente (px)</label>
+                <select name="" id="size">
+                    <option value="">---</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                    <option value="35">35</option>
+                    <option value="40">40</option>
+                    <option value="45">45</option>
+                    <option value="50">50</option>
+                </select>
+                <!-- <input type="number" id="size"> -->
+                </div>
+        
+                <div class="colorSelector">
+                    <label for="">Color de fuente</label>
+                    <input type="color" name="" id="color">
+                    
+                </div>
+        
+                <div class="buttons">
+                    <button id="actualizar">Actualizar</button>
+                    <button id="generar">Generar meme</button>
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        <div>
+            <div class="img-container" id="img-container">
+                <img id="img">
+                <canvas id="canvas"></canvas>
+            </div>
+            
+
+            
+
+        </div>
+
+    </div>
+    
+    
+    
+
+    
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
